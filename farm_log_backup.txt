@@ -1,0 +1,18 @@
+2026-04-18 22:16:41 - Checked seedlings and watered the garden.
+2026-04-18 22:54:19 - Seedlings were checked and the garden was watered.
+2026-04-18 22:58:28 - Checked irrigation lines and watered tomatoes.
+2026-04-19 00:20:57 - [planting, beans] Planted beans.
+2026-04-19 00:21:15 - [irrigation, watering, tomatoes] Inspected irrigation lines and watered the tomato plants.
+2026-04-19 23:24:40 - [seedlings, watering] Checked seedlings and watered the garden.
+2026-04-20 23:23:37 - [garlic, planting] Replanted garlic in the front yard garden.
+2026-04-21 21:49:53 - [planting] Planted garlic.
+2026-04-24 22:57:52 - [planting, sunchokes] Need to plant sunchokes.
+2026-04-25 07:21:07 - [maintenance, planting] Cleaning the greenhouse and preparing to plant sunchokes.
+2026-04-25 08:26:33 - [tomatoes, planting, maintenance] Cleaned the patio and greenhouse space in preparation for planting tomato seeds.
+2026-04-25 08:48:42 - [planting, seedlings] Planting sunchokes in raised beds.
+2026-04-25 22:54:23 - [planting, seedlings] Planted kale and lettuce.
+2026-04-26 18:54:29 - [weeding, community garden] Weeded community garden plots.
+2026-04-27 21:34:39 - [planting, berries] Planted thornless blackberry and raspberry plants.
+2026-05-02 00:13:26 - [watering] Watered the plants.
+2026-05-09 00:09:31 - [planting, tomatoes] Planted tomatoes.
+2026-05-09 00:12:01 - [watering, tomatoes] Watered the tomatoes.

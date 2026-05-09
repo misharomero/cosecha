@@ -1,0 +1,23 @@
+COSECHA DAILY WORKFLOW
+
+1. Open VS Code
+
+2. Open terminal
+   Ctrl + `
+
+3. Go to project
+   cd ~/projects/cosecha
+
+4. Activate environment
+   source .venv/bin/activate
+
+5. Run daily log
+   python ai_summary.py
+
+6. Enter note
+
+7. Run weekly summary (optional)
+   python weekly_summary.py
+
+8. Open Excel file (optional)
+   weekly_data.csv
