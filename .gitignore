@@ -4,3 +4,4 @@ weekly_summary_*.txt
 weekly_summary_last_7_days_*.txt
 __pycache__/
 *.pyc
+.env
