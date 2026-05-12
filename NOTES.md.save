@@ -1,0 +1,5 @@
+Natural next steps:
+
+A) Connect to GitHub so your project is backed up in the cloud
+B) Rewire ai_summary.py to use Claude's API instead of OpenAI
+C) Add option 7 to the menu

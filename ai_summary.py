@@ -1,17 +1,22 @@
 from dotenv import load_dotenv
 import os
-from openai import OpenAI
+import anthropic
 from datetime import datetime
 
 load_dotenv(dotenv_path=".env", override=True)
 
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))    
+client = anthropic.Anthropic(api_key=os.getenv("ANTHROPIC_API_KEY"))
+
 print("Script started")
 note = input("Write your daily note: ")
 
-response = client.responses.create(
-    model="gpt-4o-mini",
-    input=f"""
+response = client.messages.create(
+    model="claude-sonnet-4-5",
+    max_tokens=1000,
+    messages=[
+        {
+            "role": "user",
+            "content": f"""
 You are a farm logging assistant.
 
 Only include real-world farm or garden activities.
@@ -34,9 +39,11 @@ LOG: rewritten sentence
 Note:
 {note}
 """
+        }
+    ]
 )
 
-summary = response.output_text.strip()
+summary = response.content[0].text.strip()
 
 print("\n--- AI SUMMARY ---")
 
