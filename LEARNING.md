@@ -25,3 +25,5 @@
 - WSL Ubuntu = where all dev work lives (Python, Git, Cosecha)
 - Windows = Microsoft tools, browser, desktop apps
 - They have separate file systems
+## Terminal Tips
+- Can paste multiple commands at once — terminal runs them in sequence
