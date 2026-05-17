@@ -17,3 +17,6 @@
 2026-05-09 00:09:31 - [planting, tomatoes] Planted tomatoes.
 2026-05-09 00:12:01 - [watering, tomatoes] Watered the tomatoes.
 2026-05-11 22:41:56 - [planting, tomatoes, seedlings] Planted almost the last of the tomato starts.
+2026-05-13 20:40:44 - [tomatoes, seedlings] Placed tomato plants in driveway in front of white garage doors in Tacoma.
+2026-05-15 22:16:04 - [watering, chokeberry] Watered chokeberry plants.
+2026-05-15 22:16:40 - [watering, irrigation] Did not water due to heavy rain.
