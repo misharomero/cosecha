@@ -20,3 +20,5 @@
 2026-05-13 20:40:44 - [tomatoes, seedlings] Placed tomato plants in driveway in front of white garage doors in Tacoma.
 2026-05-15 22:16:04 - [watering, chokeberry] Watered chokeberry plants.
 2026-05-15 22:16:40 - [watering, irrigation] Did not water due to heavy rain.
+2026-05-18 22:34:49 - [soil, tomatoes, planting] Picked up Tagro potting soil from Tacoma and replanted half of the WSU Master Gardener tomato plants, one already fruiting.
+2026-05-20 21:00:43 - [planting, weeding, maintenance] Planted dill and eggplant at the community garden and used battery edger to cut buttercups growing alongside the beds.
