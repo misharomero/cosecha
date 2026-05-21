@@ -443,3 +443,60 @@ Publish journal entries.
 Add El Salvador family farm content.
 Keep the system understandable.
 Improve slowly, one controlled layer at a time.
+
+---
+
+## May 21, 2026 — Journal Review Bridge Created
+
+A safe review-first bridge was added between the Cosecha farm logging system and the Local Organic Food website.
+
+### What changed
+
+In the `cosecha` repo:
+
+- Added `prepare_journal_update.py`
+- Added `generated_journal_entries/`
+- Added `generated_journal_entries/.gitkeep`
+
+In the `organiclocalfood` repo:
+
+- Added journal insertion markers to `journal.html`:
+  `<!-- JOURNAL_ENTRIES_START -->`
+  `<!-- JOURNAL_ENTRIES_END -->`
+
+The markers surround only the journal article section. The photo note/gallery remains below and outside the insertion zone.
+
+### Workflow proven
+
+The helper workflow was tested successfully:
+
+Cosecha generated fragment
+→ prepare_journal_update.py
+→ journal.REVIEW_COPY.html
+→ human review
+→ manual approval before publishing
+
+The helper creates a review copy only:
+
+`~/projects/organiclocalfood/journal.REVIEW_COPY.html`
+
+It does not overwrite:
+
+`~/projects/organiclocalfood/journal.html`
+
+### Safety rules preserved
+
+- No guessed file structure
+- No uncontrolled edits
+- No auto-deploy helper
+- No auto-commit helper
+- No automatic push
+- No framework added
+- No build system added
+- No test fragment committed
+- Human review remains required before public website changes
+
+### Core operating rule
+
+Cosecha can generate journal content, but a human reviews and approves before the public website changes.
+
